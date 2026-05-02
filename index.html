@@ -1,0 +1,318 @@
+      <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>PRODESCOP- Restaurant</title>
+    <meta name="description" content="PRODESCOP is an enchanting Parallax Restaurant WordPress Theme that allows you to tell your story in an enjoyable way, perfect for restaurants or coffee shops.">
+    <meta name="viewport" content="width = device-width, initial-scale = 1, shrink-to-fit = no">
+
+    <!-- Place favicon.ico in the root directory -->
+    <!-- <link rel="shortcut icon" href="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/PRODESCOP-favicon.png"> -->
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro" rel="stylesheet">
+    <!--Fonts-->
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!--FontAwesome-->
+
+
+    <!-- <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.min.css"> -->
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.min.css">
+
+        
+
+    
+</head>
+
+<body class="stop-scroll">
+
+  <!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!--Start loader-->
+  <div class="loader-wrap">
+      <div class="loader">
+          <span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span>
+      </div>
+  </div>
+  <!--End loader-->
+
+  <!--Start Dots-->
+  <!-- <div class="dots">
+      <div class="active one" data-x="header"></div>
+      <div class="two" data-x=".recipes"></div>
+      <div class="three" data-x=".fixed-image"></div>
+  </div> -->
+  <!--End Dots-->
+
+ <!--Start Header-->
+  <header>
+      <nav>
+          <div class="logo">
+              <!-- <a href="index.html"><img src="https://res.cloudinary.com/ditldw1rx/image/upload/c_auto,g_north_west,h_64,w_90/e_grayscale/e_background_removal/logo_syfwce.jpg" alt="PRODESCOP Logo"></a> -->
+          </div>
+          <div class="toggle">
+              <span class="first"></span>
+              <span class="middle"></span>
+              <span class="last"></span>
+          </div>
+          <div class="navigation-bar">
+              <ul>
+                  <li class="active"><a href="index.html">Inicio<span class="underline"></span></a></li>
+                  <li><a href="#">Nosotros<span class="underline"></span></a></li>
+                  <li><a href="#">Objetivos<span class="underline"></span></a></li>
+                  <li><a href="#">Actividades<span class="underline"></span></a></li>
+                  <li><a href="#">Miembros<span class="underline"></span></a></li>
+                  <li><a href="#">Mision<span class="underline"></span></a></li>
+                  <li><a href="#">Contacto<span class="underline"></span></a></li>
+              </ul>
+          </div>
+      </nav>
+      <div class="text">
+          <div class="arrow">
+              <span class="left"></span>
+              <i class="fas fa-asterisk"></i>
+              <span class="right"></span>
+          </div>
+          <h1>PRODESCOP</h1>
+          <br>
+          <br>
+          <div class="arrow">
+              <span class="left"></span>
+              <i class="fas fa-asterisk"></i>
+              <span class="right"></span>
+          </div>
+          <span>“Trabajamos por educación, salud y oportunidades para comunidades vulnerables”</span>
+            <div class="donacion-box">
+                <div class="montos">
+                    <button onclick="setMonto(10)">S/10</button>
+                    <button onclick="setMonto(20)">S/20</button>
+                    <button onclick="setMonto(50)">S/50</button>
+                    <button onclick="setMonto(100)">S/100</button>
+                </div>
+                <input type="number" id="monto" placeholder="Monto S/." min="1">
+                <button id="btnDonar">Quiero ayudar</button>
+                <p style="font-size:12px; opacity:0.7; color: white;">
+                    Pago seguro con tarjeta • 100% protegido
+                </p>
+            </div>      </div>
+      <svg class="svg-down" width="192" height="61" version="1.1" xmlns="https://res.cloudinary.com/ditldw1rx/image/upload/fondo_i3ndgk.jpg" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve"><path fill="currentColor" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+      <div class="arrow-down">
+      </div>
+  </header>
+  <!--End Header-->
+
+  <!--start About Us-->
+  <div class="about-us">
+      <div class="text">
+          <!-- <h2>Descubra</h2> -->
+          <h3>Sobre Nosotros</h3>
+          <div><i class="fas fa-asterisk"></i></div>
+          <p>Somos una organización no gubernamental sin fines de lucro, creada para apoyar en la formulación y ejecución de diversos proyectos sociales, promoviendo así la mejora de la calidad de vida de las personas, a través de la mejora en sus ingresos salariales, generación de nuevos puestos de trabajo, mejor atención en salud y mejora en la calidad educativa.  Fundada el 14 de agosto del 2023, somos una ONG nueva, pero con una gran vocación de servir y generar mejores oportunidades para.</p>
+          <div><a class="a-CTA" href="#">Acerca de nosotros</a></div>
+      </div>
+  </div>
+  <!--End About Us-->
+
+  <!-- /////////////////////SECTORES//////////////////////// -->
+    <!--start Recipes Productivo-->
+    <div class="recipes">
+        <div class="image"></div>
+            <div class="text">
+                <!-- <h2>SECTOR</h2> -->
+                <h3>PRODUCTIVO</h3>
+            </div>
+    </div>
+    <!--End Recipes Productivo-->
+    <!--Start text productivo-->
+    <div  class="about-us" style="padding-top: 15px;">
+    <div class="text">
+        <div><i class="fas fa-asterisk"></i></div>
+        <p>Propiciamos iniciativas orientadas al impulso de negocios productivos y sostenibles, promoviendo la generación de nuevos puestos de trabajo y el fortalecimiento de capacidades emprendedoras en personas y comunidades. Estas acciones buscan mejorar los procesos productivos, fomentar la innovación y facilitar el acceso a herramientas que permitan a los emprendimientos crecer y consolidarse en el tiempo.
+    Asimismo, promovemos la comercialización de productos y servicios mediante la articulación con mercados, el fortalecimiento de la gestión empresarial y el acompañamiento técnico. De esta manera, contribuimos a incrementar los ingresos, mejorar la calidad de vida de los beneficiarios y dinamizar el desarrollo económico local de forma inclusiva y sostenible.
+        </p>
+    </div>
+    </div>
+    <!--End text productivo-->
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Start Recipes Salud -->
+    <div class="recipes">
+        <div class="image1"></div>
+            <div class="text">
+                <!-- <h2>SECTOR</h2> -->
+                <h3>SALUD</h3>
+            </div>
+    </div>
+    <!--End Recipes Salud-->
+    <!--Start text Salud-->
+    <div  class="about-us" style="padding-top: 15px;">
+    <div class="text">
+        <div><i class="fas fa-asterisk"></i></div>
+        <p>Apoyamos a las diversas instituciones del sector salud mediante la implementación de proyectos integrales, orientados a la adquisición oportuna de bienes y la provisión de servicios esenciales. Estas acciones permiten fortalecer la capacidad operativa de los establecimientos de salud y asegurar una atención adecuada, continua y de calidad para la población.
+        Asimismo, estos proyectos contribuyen a responder de manera eficiente a las necesidades básicas de la población en general, mejorando el acceso a insumos, equipamiento y servicios fundamentales. De este modo, promovemos el bienestar, la prevención y el cuidado de la salud, especialmente en contextos de mayor vulnerabilidad.
+        </p>
+    </div>
+    </div>
+    <!--End text Salud-->
+    <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- Start Recipes educativos -->
+    <div class="recipes">
+        <div class="image2"></div>
+            <div class="text">
+                <!-- <h2>SECTOR</h2> -->
+                <h3>EDUCACION</h3>
+            </div>
+    </div>
+    <!--End Recipes educativos-->
+    <!--Start text educativos-->
+    <div  class="about-us" style="padding-top: 15px;">
+    <div class="text">
+        <div><i class="fas fa-asterisk"></i></div>
+        <p>Apoyamos a los diversos centros educativos mediante la implementación de proyectos integrales, orientados a la adquisición de bienes y la provisión de servicios esenciales que permitan atender adecuadamente las necesidades básicas de los estudiantes. Estas acciones contribuyen a mejorar las condiciones de aprendizaje y a fortalecer el entorno educativo.
+
+
+Asimismo, los proyectos impulsan el acceso a recursos educativos, equipamiento y servicios complementarios que favorecen la permanencia escolar y el desarrollo integral de los estudiantes, promoviendo una educación inclusiva y de calidad en beneficio de la comunidad educativa.
+        </p>
+    </div>
+    </div>
+    <!--End text educativos-->
+  <!--End Recipes-->
+
+  <!--start Menu-->
+  <div class="menu">
+      <div class="box-model">
+          <i class="fas fa-times fa-2x close"></i>
+          <div class="arrow">
+              <div class="arrow arrow-right"></div>
+              <div class="arrow arrow-left"></div>
+          </div>
+          <div class="box-image-container">
+              <div class="box-image">
+                  <img src=""  alt="Food Photo">
+              </div>
+          </div>
+      </div>
+      <div class="menu-image-container">
+          <div class="image active">
+              <!-- <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988517/big-menu-thumb-1.jpg" alt="Food Photo"> -->
+               <p>Propiciamos iniciativas que promuevan iniciativas de negocios productivos a fin de la generación de nuevos puestos de trabajo, comercialización de sus productos, y mejora de la calidad de vida de los beneficiarios. </p>
+          </div>
+          <div class="image">
+              <!-- <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988526/big-menu-thumb-2.jpg" alt="Food Photo"> -->
+               <p>Apoyamos a las diversas instituciones del sector salud mediante la implementación de proyectos basados en la adquisición de bienes y servicios necesarios para cumplir con las necesidades básicas de la población en general. </p>
+          </div>
+          <div class="image">
+             <p>Apoyo a los diversos centros educativos mediante la implementación de proyectos basados en adquisición de bienes y servicios necesarios para cumplir con las necesidades básicas de los estudiantes.</p>
+              <!-- <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988525/big-menu-thumb-4.jpg" alt="Food Photo"> -->
+          </div>
+          <!-- <div class="image">
+              <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988524/big-menu-thumb-6.jpg" alt="Food Photo">
+          </div> -->
+      </div>
+      <!-- <div class="text">
+          <h2>Discover</h2>
+          <h3>Menu</h3>
+          <div><i class="fas fa-asterisk"></i></div>
+          <p>For those with pure food indulgence in mind, come next door and sate your desires with our ever changing internationally and seasonally inspired small plates.  We love food, lots of different food, just like you.</p>
+          <div><a class="a-CTA" href="#">View The Full Menu</a></div>
+      </div> -->
+  </div>
+  <!--End Menu-->
+
+  <!--Start fixed-image-->
+  <div class="fixed-image">
+      <div class="text">
+          <h2>The Perfect</h2>
+          <h3>Blend</h3>
+      </div>
+  </div>
+  <!--End fixed-image-->
+
+  <!--start About Us-->
+  <div class="reservation">
+      <div class="text">
+          <h2>Culinary</h2>
+          <h3>Delight</h3>
+          <div><i class="fas fa-asterisk"></i></div>
+          <p>We promise an intimate and relaxed dining experience that offers something different to local and foreign patrons and ensures you enjoy a memorable food experience every time.</p>
+          <div><a class="a-CTA" href="#">Make a Reservation</a></div>
+      </div>
+      <div class="image-container">
+          <div class="image image1">
+              <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988518/bacon-1.jpg" alt="Food Photo">
+          </div>
+          <div class="image image2">
+              <img src="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988518/bacon-2.jpg" alt="Food Photo">
+          </div>
+      </div>
+  </div>
+  <!--End About Us-->
+
+  <!--Start Footer-->
+  <footer>
+      <div class="text">
+          <h2>SOBRE PRODESCOP</h2>
+          <div><i class="fas fa-asterisk"></i></div>
+          <p>PRODESCOP is an enchanting and easy-to-use parallax Restaurant WordPress theme that allows you to tell your story in a dynamic, narrative and enjoyable way, making it perfect for restaurants, bakeries, bars or coffee shops.</p>
+      </div>
+      <div class="contact-container">
+        <div class="social-media">
+            <h3>Síguenos</h3>
+            <div class="links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+          <div class="newsletter">
+            <h3>Correo</h3>
+              <form method="post">
+                  <input type="email" name="email" placeholder="Escribe tu correo">
+                  <i class="fas fa-envelope"></i>
+              </form>
+          </div>
+      </div>
+      <div class="text">
+          <h2>SOBRE PRODESCOP</h2>
+          <div><i class="fas fa-asterisk"></i></div>
+          <p>Dirección: Paseo de la Republica Nro. 291 – Cercado de Lima </p>
+          <p>Correo: prodescop@gmail.com</p>
+          <p>Teléfono: 976446695  </p>
+
+      </div>
+  </footer>
+<!--End Footer-->
+
+<!--Start Copy-Right-->
+  <div class="copyright">
+      <svg class="svg-up" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve">
+        <path fill="#262526" d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z"></path></svg>
+      <i class="fas fa-angle-double-up arrow-up"></i>
+      <ul class="info">
+          <li>&copy; PRODESCOP 2026</li>
+      </ul>
+      <ul class="CTA">
+          <li><a href="#">COPYRIGHT</a></li>
+          <li><a href="#">CONTACTA AL EQUIPO</a></li>
+      </ul>
+  </div>
+  <!--End Copy-Right-->
+
+  <!-- Add your site or application content here -->
+  <!-- <script src="js/main.js"></script>
+  <script src="js/main.min.js"></script> -->
+    <script src="https://checkout.culqi.com/js/v4"></script>
+
+  <script src="script.js"></script>
+  <!-- <script src="script.jss"></script> -->
+</body>
+</html>
