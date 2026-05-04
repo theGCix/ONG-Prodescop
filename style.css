@@ -1172,3 +1172,51 @@ footer .newsletter i {
     color: #fff;
 }
 /*End Home Page Responsive*/
+
+
+
+
+
+
+
+.nav-custom {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    z-index: 999;
+    transition: 0.3s;
+}
+
+/* .nav-custom.scrolled {
+    background: #000;
+} */
+
+.logo img {
+    height: 60px;
+}
+
+.navigation-bar {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-bar ul {
+    display: flex;
+    gap: 25px;
+}
+
+.navigation-bar a {
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navigation-bar a:hover {
+    color: #a96700;
+}

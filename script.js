@@ -83,11 +83,11 @@ window.onscroll = function() {
     // make navbar fixed & change logo color
     if (window.pageYOffset > headerSection.offsetHeight - 75) {
         nav.classList.add("active");
-        logoImage.src = "https://res.cloudinary.com/ditldw1rx/image/upload/t_logo/logo_syfwce.jpg";
+        logoImage.src = "https://res.cloudinary.com/ditldw1rx/image/upload/c_auto,h_150,w_150/Copilot_20260503_165901_f43n8x.png";
     } else {
         nav.classList.remove("active");
         // logoImage.src = "https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/logo-rosa-white.png";
-        logoImage.src = "https://res.cloudinary.com/ditldw1rx/image/upload/c_auto,g_north_west,h_64,w_90/e_extract:prompt_white;invert_true;mode_mask/logo_syfwce.jpg";
+        logoImage.src = "https://res.cloudinary.com/ditldw1rx/image/upload/c_auto,h_150,w_150/Copilot_20260503_165842_dun16z.png";
     }
 
     // header welcome fade out and in
@@ -138,6 +138,11 @@ window.onscroll = function() {
         }
     }
 };
+
+/** ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ * ||||||||||||||||||||||||||||||||||||||EMPIEZA|||CULQI|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ */
 
 // CONFIGURA TU CLAVE
 Culqi.publicKey = "pk_test_xxxxx"; // luego cambias a pk_live
@@ -201,8 +206,15 @@ function setMonto(valor) {
     document.getElementById("monto").value = valor;
 }
 
+
+
+/** ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ * ||||||||||||||||||||||||||||||||||||||TERMINA|||CULQI|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+ */
+
 // home page JS
-if (pageTitle.text === "ROSA- Restaurant") {
+if (pageTitle.text === "PRODESCOP") {
     // svg-down smooth scroll
     svgDown.addEventListener("click", () => {
         window.scroll({
@@ -297,3 +309,10 @@ if (pageTitle.text === "ROSA- Restaurant") {
     window.addEventListener("click", boxModelFun);
     boxModelArrow.addEventListener("click", boxModelFun);
 }
+
+
+
+window.addEventListener("scroll", () => {
+    const nav = document.querySelector(".nav-custom");
+    nav.classList.toggle("scrolled", window.scrollY > 50);
+});
